@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Overview</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .logo img {
+            max-width: 400px; /* Increased max-width to make the logo bigger */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 36px;
+            color: #333;
+        }
+        .table-container {
+            margin: 0 auto; /* Centers the table container */
+            padding: 0 15px; /* Adds some padding around the table */
+            width: 66%; /* Adjusts width to 2/3 of the page */
+        }
+        table {
+            width: 100%; /* Table width is 100% of its container */
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 15px; /* Rounded corners for the table */
+            overflow: hidden; /* Ensures the corners remain rounded */
+        }
+        th, td {
+            padding: 15px; /* Increased padding for better spacing */
+            text-align: center; /* Centers the content of the table cells */
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #D22630; /* Red color similar to the logo */
+            color: white;
+        }
+        td {
+            color: #333; /* Dark gray for text color, similar to the logo */
+        }
+        td a {
+            color: #D22630; /* Red color for links */
+            text-decoration: none;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid"> <!-- Changed to container-fluid for full width -->
+    <div class="row">
+        <div class="col-12"> <!-- Adjusted column to take full width of the grid -->
+            <div class="logo">
+                <img src="{{ url_for('static', filename='logo.png') }}" alt="Company Logo">
+            </div>
+
+            <h1>Inventory Groups</h1>
+
+            <div class="table-container"> <!-- Adjusted container for table -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Part Name</th>
+                            <th>Total Number</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for group, total in groups.items() %}
+                            <tr>
+                                <td><a href="{{ url_for('group_page', group_name=group) }}">{{ group }}</a></td>
+                                <td>{{ total | int }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
