@@ -2,7 +2,7 @@
 
 ## Overview
 
-The QuickBook Inventory Log is a web application designed to streamline and enhance your inventory management process. This project reads through an Excel file of inventory status downloaded from QuickBook, automatically creating sub-pages for each product group, allowing for better organization and quick access to specific inventory details.
+The QuickBook Inventory Log is a web application that reads through an Excel file of inventory status downloaded from QuickBook, automatically creating sub-pages for each product group, allowing for better organization and quick access to specific inventory details.
 
 ## Key Features
 
@@ -15,7 +15,7 @@ The QuickBook Inventory Log is a web application designed to streamline and enha
 ## Getting Started
 
 1. **Prerequisites:**
-   - Python 3.x
+   - Python
    - Flask
    - Pandas
    - OpenPyXL
