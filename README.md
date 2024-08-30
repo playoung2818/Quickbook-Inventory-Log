@@ -9,6 +9,10 @@ The QuickBook Inventory Log is a web application that reads through an Excel fil
 ![image (1)](https://github.com/user-attachments/assets/b780b3b2-980c-44ab-8536-6c66c4f42842)
 ](url)
 
+![image](https://github.com/user-attachments/assets/dbf9cdc0-77b9-4614-b88c-10a5262ac922)
+
+![image](https://github.com/user-attachments/assets/aea5e051-cf86-4586-a116-db12ac19fbf7)
+
 ## Key Features
 
 - **Excel File Parsing:** The application reads and processes an Excel file exported from QuickBook, extracting inventory data and organizing it by product group.
