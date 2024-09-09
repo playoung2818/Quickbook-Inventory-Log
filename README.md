@@ -5,7 +5,6 @@
 The QuickBook Inventory Log is a web application that reads through an Excel file of inventory status downloaded from QuickBook, automatically creating sub-pages for each product group, allowing for better organization and quick access to specific inventory details.
 
 ## Screenshot
-[
 ![image](https://github.com/user-attachments/assets/c06fb8e5-8efd-4197-aa0f-77c19a6f0d9a)
 
 
