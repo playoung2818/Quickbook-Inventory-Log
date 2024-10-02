@@ -7,6 +7,7 @@ The QuickBook Inventory Log is a web application that reads through an Excel fil
 ## Screenshot
 ![image](https://github.com/user-attachments/assets/c06fb8e5-8efd-4197-aa0f-77c19a6f0d9a)
 
+![image](https://github.com/user-attachments/assets/859bd96a-0d8e-4285-8b02-57c9c331de63)
 
 ![image](https://github.com/user-attachments/assets/388cda4c-06d3-446b-8890-24af04215ebf)
 
