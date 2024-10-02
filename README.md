@@ -19,6 +19,8 @@ The QuickBook Inventory Log is a web application that reads through an Excel fil
   
 - **Dynamic Sub-Pages:** For each product group identified in the Excel file, the application dynamically generates a dedicated sub-page. These sub-pages provide a detailed view of the inventory status, making it easy to monitor stock levels and manage inventory.
 
+- **Fuzzy Search Bar:** This feature allows users to quickly find items within the inventory by typing related keywords, significantly speeding up the search process and improving user experience by tolerating minor typos and variations in item names.
+
 - **Logging Functionality:** The application includes a logging feature, which provides users with a convenient tool for recording inventory counts. This function ensures that all inventory updates are documented accurately and efficiently, reducing the risk of errors and improving inventory accuracy.
 
 ## Getting Started
